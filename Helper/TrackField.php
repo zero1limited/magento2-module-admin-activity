@@ -676,7 +676,8 @@ class TrackField extends \Magento\Framework\App\Helper\AbstractHelper
      */
     public function validateValue($model, $key, $value, $skipFields)
     {
-        if (is_array($value) || is_object($value) || is_array($model->getOrigData($key))
+        if (is_array($value) || is_object($value) 
+            || is_array($model->getOrigData($key)) || is_object($model->getOrigData($key))
             || in_array($key, $skipFields)) {
             return true;
         }
