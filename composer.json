@@ -2,7 +2,6 @@
     "name": "zero1/module-admin-activity",
     "description": "The Admin Activity extension makes it easy to track all admin activity and revert the modification.",
     "type": "magento2-module",
-    "version": "1.1.5",
     "license": [
         "OSL-3.0"
     ],
